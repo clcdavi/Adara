@@ -1,0 +1,10 @@
+*{ /*selector universal*/
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+body{
+	background-image: url(/adara/recursos/images/fondoCorazon.jpg);
+}
+
