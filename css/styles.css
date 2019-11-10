@@ -8,3 +8,12 @@ body{
 	background-image: url(/adara/recursos/images/fondoCorazon.jpg);
 }
 
+#logoPequeño{
+	border-radius: 10rem;
+	border-width: 10px;
+	width: 4rem;
+}
+
+.navLogoPequeño{
+	height: 6rem;
+}
