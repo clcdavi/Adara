@@ -64,8 +64,22 @@
 				</button>
 						
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<div>Turnos 11 3915-6007</div>
 						<!-- lista de redes -->
 						<ul class="navbar-nav nav-flex-icons">
+
+						
+
+							<li class="nav-item">
+										
+								<a href="#" class="nav-link">
+													
+									<i class="fab fa-whatsapp fa-fw green-text"></i>
+		
+								</a>
+		
+							</li>
 									
 							<li class="nav-item">
 										
@@ -107,41 +121,19 @@
 
 		<div class="row d-flex justify-content-center"> <!-- row 2 -->
 
-			<div class="d-flex align-items-center"> <!-- mt-5 pt-5 -->
+			<div class="d-flex align-items-center "> <!-- mt-5 pt-5 -->
 				<img id="adaraNombre" src="<?=PATH_IMAGENES?>/adaraNombre.png" alt="adaraNombre">
 			</div>
-		</div>
+
+		</div>	
 		
 		<div class="row d-flex justify-content-center"> <!-- row 3 -->
-			<div class="p-0 ">
+			<!-- <div class="p-0 ">
 				<img src="<?=PATH_IMAGENES?>/fTrabajo1.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" style="max-width: 50%;y height: 70px;">
-			</div>
+			</div> -->
 
 		</div>
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
 	<br>
 	<br>
 	<br>
@@ -155,10 +147,28 @@
 		
 	</nav>
 	<section>
-		
+		<div class="row d-flex justify-content-center"><!-- row section -->
+			<div class="col">
+			
+				<?php 
+					include( PATH_VIEWS . '/common/partials/carrousel.php' );
+				?>
+
+			</div>
+				
+		</div>
 	</section>
 	<footer>
-		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</footer>
 
 	</div> <!-- cierre div de clase container -->
