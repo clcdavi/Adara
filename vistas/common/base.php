@@ -49,13 +49,13 @@
 		<div class="row" style="height:110px"> <!-- row 1 -->
 
 			<nav class="navbar navbar-expand-lg navbar-dark gris scrolling-navbar fixed-top navLogoPequeño">
-				<div class="col-md"> <!-- columna 1 -->
+				<div class="col-md-7 border"> <!-- columna 1 -->
 
 					<a class="adaraNombre" href="index.php?m=index"><img id="logoPequeño" src="<?=PATH_IMAGENES?>/logoSinFondo.png" alt="logoPequeño"></a>
 
 				</div> <!-- cierre de clase col 1 -->
 
-				<div class="col-md-4 d-flex justify-content-between"> <!-- columna 2 -->
+				<div class="col-md-5 d-flex justify-content-between border"> <!-- columna 2 -->
 				
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								
@@ -65,11 +65,9 @@
 						
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-					<div>Turnos 11 3915-6007</div>
+					<div class="border">Turnos 11 3915-6007</div>
 						<!-- lista de redes -->
-						<ul class="navbar-nav nav-flex-icons">
-
-						
+						<ul class="navbar-nav nav-flex-icons border">
 
 							<li class="nav-item">
 										
@@ -109,11 +107,44 @@
 								</a>
 							</li>
 						</ul>
-
+						<!-- boton de ingresar -->
 						<div class="d-flex align-items-center">
-							<button type="button" class="btn btn-pink btn-sm">Ingresar</button>
+							<button type="button" class="btn btn-pink btn-sm border">Ingresar</button>
 						</div>
 
+						<div class="d-flex align-items-center">
+							<button type="button" class="btn btn-pink btn-sm border">Registro</button>
+						</div>
+
+						<div class="col-4 align-content-center">
+
+				<!-- botones de registro e ingreso a editar!!! -->
+			<!-- 	<?php 
+				if ( !isset($_SESSION["usuario"]) ){ ?>
+					<div>
+						<a data-toggle="modal" data-target="#exampleModalR" class="nav-link" href=""><button type="button" class="btn btn-outline-primary" id="bRegis" onclick="">Registrate</button></a>
+
+						<a data-toggle="modal" data-target="#exampleModal" class="nav-link" href="#"><button type="button" class="btn btn-outline-primary" id="bIngresar" onclick="">Ingresá</button></a>
+					</div>
+				<?php 
+				}
+				else{
+				?>
+					<div class="nav-item dropdown d-flex">
+						<a class="nav-link dropdown-toggle ml-auto" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"><?= $_SESSION["usuario"] ?></a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Cuenta</a>
+							<a class="dropdown-item" href="index.php?m=logout">Salir</a>
+						</div>
+					</div>
+				<?php 
+				}
+				?>  -->
+
+			<!-- botones de registro e ingreso comentados -->
+						</div>
+			
+			<!---- termina de boton para modal -->
 					</div>
 				</div> <!-- cierre de clase columna 2-->
 			</nav>
@@ -121,7 +152,7 @@
 
 		<div class="row d-flex justify-content-center"> <!-- row 2 -->
 
-			<div class="d-flex align-items-center "> <!-- mt-5 pt-5 -->
+			<div class="d-flex align-items-center"> <!-- mt-5 pt-5 -->
 				<img id="adaraNombre" src="<?=PATH_IMAGENES?>/adaraNombre.png" alt="adaraNombre">
 			</div>
 
